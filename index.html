@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Website</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Opening Animation */
+        #opening-animation {
+            background-color: #2C3E50;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 1;
+            animation: fadeOut 3s ease-out forwards;
+        }
+
+        #opening-animation h1 {
+            font-size: 3em;
+        }
+
+        #opening-animation p {
+            font-size: 1.5em;
+        }
+
+        /* Fade Out Animation */
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        /* Main Content */
+        #main-content {
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            background-color: #ECF0F1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: #3498DB;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 50px 0;
+            width: 80%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #2C3E50;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #3498DB;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            bottom: 0;
+        }
+
+        /* About Section (Editable) */
+        #about p {
+            font-size: 1.2em;
+            color: #7F8C8D;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Opening Animation -->
+    <div id="opening-animation">
+        <h1>Cuộc họp Hội Đồng Quản Trị</h1>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <header>
+            <h1>Cuộc họp Hội Đồng Quản Trị</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- About Section (Editable) -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p><!-- Start editing here for the About section --></p>
+            <p>\ROBLOX</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <p>EEEEEEEEEE</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>ĐẸP TRAI</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Stunning Website. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
